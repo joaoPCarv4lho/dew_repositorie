@@ -26,3 +26,38 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
+
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.title-card{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.section-main{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+}
+
+.container{
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}

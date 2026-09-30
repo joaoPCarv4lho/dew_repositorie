@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../../pexels-siljeao-264851155-35560482.jpg');
+    background-size: cover;
+}
+
+
 ul.topnav{
     list-style-type: none;
     margin: 0;
@@ -37,6 +45,20 @@ img{
 
 .title-card{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
 }
 
 .banner{
